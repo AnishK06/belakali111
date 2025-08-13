@@ -1,0 +1,49 @@
+body{
+    background-image: url("belakaliimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+div{
+    height: 80vh;
+}
+
+.choice {
+    display: flex;                  /* put name & price side-by-side */
+    justify-content: space-between; /* push them apart */
+    align-items: center;            /* vertical alignment */
+    margin: 31px;
+    padding: 0 40px;
+    font-size: x-large;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+hr{
+    margin-bottom: 10px 0;
+    width: 80%;
+    height: 3px;
+    border: none;
+    background-color: rgb(118, 117, 135)
+}
+
+footer{
+    background-color: rgb(255, 0, 25);
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: large;
+}
+
+address{
+    font-family: fantasy;
+    font-style: normal;
+    line-height: 1.4;
+}
